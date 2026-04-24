@@ -1,16 +1,33 @@
 {
   "name": "opencode-gemini-cli-provider",
   "version": "0.1.0",
-  "description": "OpenCode plugin to use Gemini CLI as an LLM provider",
+  "description": "Use Gemini CLI as an OpenCode language model provider without an API key",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "keywords": ["opencode", "plugin", "gemini", "provider"],
+  "files": [
+    "index.js",
+    "provider.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "gemini",
+    "gemini-cli",
+    "provider"
+  ],
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "express": "^4.18.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxcrf/opencode-gemini-cli-provider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zxcrf/opencode-gemini-cli-provider/issues"
+  },
+  "homepage": "https://github.com/zxcrf/opencode-gemini-cli-provider#readme",
+  "engines": {
+    "node": ">=20"
   }
 }
