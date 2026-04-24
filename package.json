@@ -1,0 +1,16 @@
+{
+  "name": "opencode-gemini-cli-provider",
+  "version": "0.1.0",
+  "description": "OpenCode plugin to use Gemini CLI as an LLM provider",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["opencode", "plugin", "gemini", "provider"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
